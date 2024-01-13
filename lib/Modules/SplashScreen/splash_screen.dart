@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-
+import 'package:tom_seller_app/generated/assets.dart';
 import '../../Routes/routes.dart';
 import '../../Utils/constant.dart';
 
@@ -29,8 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     // TODO : DESIGN SPLASH SCREEN
     return Scaffold(
-      backgroundColor: AppColor.primaryColor,
-      body: ,
+      body: Image.asset(Assets.imagesSplashLogo),
     );
   }
 }

@@ -1,13 +1,14 @@
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 class LoginController extends GetxController {
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
+  bool check = false;
 
-  loginResData({ required String mobileNumber,
-    required String countryCode,}) async {
-    try {
-
-    } catch (e) {
-      rethrow;
-    } finally {}
+  void change(bool val) {
+    check = val;
+    update();
   }
+
 }

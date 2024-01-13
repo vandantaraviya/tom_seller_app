@@ -4,5 +4,7 @@ class Assets {
 
   static const String iconsLogout = 'assets/icons/logout.png';
   static const String imagesLoginBg = 'assets/images/login_bg.png';
+  static const String imagesSplashLogo = 'assets/images/splash_logo.jpg';
+  static const String imagesTomLogo = 'assets/images/tom_logo.png';
 
 }

@@ -4,6 +4,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:tom_seller_app/Utils/constant.dart';
 
 import 'Routes/pages.dart';
 
@@ -24,6 +25,9 @@ class MyApp extends StatelessWidget {
       designSize: const Size(414, 920),
       builder: (context, child) => GetMaterialApp(
         title: 'Boilerplate App',
+        theme: ThemeData(
+          primaryColor: AppColor.primaryColor,
+        ),
         debugShowCheckedModeBanner: false,
         getPages: AppPages.routes,
         initialRoute: AppPages.INITIAL,
